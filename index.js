@@ -3,7 +3,7 @@ const type = (b) => {
 };
 
 const number = (a) => {
-    if(a % 2) {
+    if (a % 2) {
         console.log('false'); // нечётное
     } else {
         console.log('true'); // чётное
@@ -11,10 +11,10 @@ const number = (a) => {
 };
 
 const value = (c) => {
-    if(typeof c === "string") {
+    if (typeof c === 'string') {
         console.log(c);
-    } else if(typeof c === "number") {
-        if(c % 2) {
+    } else if (typeof c === 'number') {
+        if (c % 2) {
             console.log('нечётное');
         } else {
             console.log('чётное');
@@ -23,7 +23,7 @@ const value = (c) => {
 };
 
 const multi = (d) => {
-    if(d % 2) {
+    if (d % 2) {
         console.log(d * 3);
     } else {
         console.log(d * 2);
